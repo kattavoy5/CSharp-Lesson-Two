@@ -15,22 +15,14 @@ VariablesAndInput/
 ## Step-by-Step Build Guide
 
 ### 1. Fork and Clone the Repository ✅
-- **What to do**: Go to https://github.com/PhillyCoderDojo/session2-variables → Click "Fork" → Open GitHub Desktop → Clone your fork to your computer
+- **What to do**: Go to [https://github.com/PhillyCoderDojo/session2-variables](https://github.com/PhillyCoderDojo/CSharp-Lesson-Two/tree/main) → Click "Fork" → Open GitHub Desktop → Clone your fork to your computer
 - **Where we're working**: Making your own copy of today's starter project
 - **Code snippet**: None
 - **Why it matters**: You get your own playground to experiment in
 - **Git command**: `git clone https://github.com/YOUR-USERNAME/session2-variables.git`
 - **📸 SCREENSHOT**: *Fork button in top right, then GitHub Desktop clone dialog*
 
-### 2. Create a New Branch 🌿
-- **What to do**: In GitHub Desktop → Click "Current Branch" → "New Branch" → Name it "my-variables" → Click "Create Branch"
-- **Where we're working**: Making a special workspace for today's code
-- **Code snippet**: None
-- **Why it matters**: Keeps your experiments separate from the main code
-- **Git command**: `git checkout -b my-variables`
-- **📸 SCREENSHOT**: *GitHub Desktop branch creation dialog*
-
-### 3. Open Project in Rider ✅
+### 2. Open Project in Rider ✅
 - **What to do**: Open Rider → File → Open → Navigate to your cloned folder → Select it → Click OK
 - **Where we're working**: Loading your project into the coding tool
 - **Code snippet**: None
@@ -38,7 +30,7 @@ VariablesAndInput/
 - **Git command**: None
 - **📸 SCREENSHOT**: *Rider with project loaded in Solution Explorer*
 
-### 4. Create Your First Variable 📦
+### 3. Create Your First Variable 📦
 - **What to do**: Open Program.cs and type these lines
 - **Where we're working**: Program.cs file
 - **Code snippet**:
@@ -50,7 +42,7 @@ Console.WriteLine("Hello, " + myName);
 - **Git command**: `git add . && git commit -m "Add first string variable"`
 - **📸 SCREENSHOT**: *Code editor showing the variable declaration*
 
-### 5. Add Number Variables 🔢
+### 4. Add Number Variables 🔢
 - **What to do**: Add these lines below your name code
 - **Where we're working**: Program.cs file
 - **Code snippet**:
@@ -63,7 +55,7 @@ Console.WriteLine($"I am {myAge} years old and {myHeight} feet tall");
 - **Git command**: `git add . && git commit -m "Add integer and double variables"`
 - **📸 SCREENSHOT**: *Code showing all three variable types*
 
-### 6. Get User Input 💬
+### 5. Get User Input 💬
 - **What to do**: Replace your code with this interactive version
 - **Where we're working**: Program.cs file
 - **Code snippet**:
@@ -76,7 +68,7 @@ Console.WriteLine($"Nice to meet you, {userName}!");
 - **Git command**: `git add . && git commit -m "Add user input for name"`
 - **📸 SCREENSHOT**: *Console showing the prompt and user typing*
 
-### 7. Ask for Age 🎂
+### 6. Ask for Age 🎂
 - **What to do**: Add this code to ask for the user's age
 - **Where we're working**: Program.cs file (add after name code)
 - **Code snippet**:
@@ -90,7 +82,7 @@ Console.WriteLine($"Wow! In 10 years you'll be {userAge + 10}!");
 - **Git command**: `git add . && git commit -m "Add age input with calculation"`
 - **📸 SCREENSHOT**: *Console showing age calculation result*
 
-### 8. Build Profile Questionnaire 📋
+### 7. Build Profile Questionnaire 📋
 - **What to do**: Create a complete profile program
 - **Where we're working**: Replace all code in Program.cs
 - **Code snippet**:
@@ -119,7 +111,7 @@ Console.WriteLine($"Likes Pizza: {likesPizza}");
 - **Git command**: `git add . && git commit -m "Create complete profile questionnaire"`
 - **📸 SCREENSHOT**: *Full program output with user responses*
 
-### 9. Push Your Branch 🚀
+### 8. Push Your Branch 🚀
 - **What to do**: In GitHub Desktop → Click "Push origin" to upload your branch
 - **Where we're working**: Sending your code to GitHub
 - **Code snippet**: None
