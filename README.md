@@ -15,8 +15,8 @@ VariablesAndInput/
 ## Step-by-Step Build Guide
 
 ### 1. Fork and Clone the Repository ✅
-- **What to do**: Go to [https://github.com/PhillyCoderDojo/session2-variables](https://github.com/PhillyCoderDojo/CSharp-Lesson-Two/tree/main) → Click "Fork" → Open GitHub Desktop → Clone your fork to your computer
-- **Where we're working**: Making your own copy of today's starter project
+- **Where we're working**: Making your own copy of today's sta- **What to do**: Go to [https://github.com/PhillyCoderDojo/session2-variables](https://github.com/PhillyCoderDojo/CSharp-Lesson-Two/tree/main) → Click "Fork" → Open GitHub Desktop → Clone your fork to your computer
+  rter project
 - **Code snippet**: None
 - **Why it matters**: You get your own playground to experiment in
 - **Git command**: `git clone https://github.com/YOUR-USERNAME/session2-variables.git`
